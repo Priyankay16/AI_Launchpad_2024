@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="1" parallel = "tests">
+   
+    <test name="TestA">
+        <classes>
+            <class name="testcases.TestA" />
+        </classes>
+    </test>
+    
+     <test name="TestB">
+        <classes>
+            <class name="testcases.TestB" />
+        </classes>
+    </test>
+    
+     <test name="TestC">
+        <classes>
+            <class name="testcases.TestC" />
+        </classes>
+    </test>
+       
+</suite>

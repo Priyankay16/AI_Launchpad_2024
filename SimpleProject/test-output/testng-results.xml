@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="5103" started-at="2020-04-16T16:04:45 IST" finished-at="2020-04-16T16:04:50 IST">
+    <groups>
+    </groups>
+    <test name="TestA" duration-ms="5103" started-at="2020-04-16T16:04:45 IST" finished-at="2020-04-16T16:04:50 IST">
+      <class name="testcases.TestA">
+        <test-method status="PASS" signature="testA(org.testng.ITestContext)[pri:1, instance:testcases.TestA@6fc6f14e]" name="testA" duration-ms="5014" started-at="2020-04-16T16:04:45 IST" finished-at="2020-04-16T16:04:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76f1bd13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testAA(org.testng.ITestContext)[pri:2, instance:testcases.TestA@6fc6f14e]" name="testAA" duration-ms="12" started-at="2020-04-16T16:04:50 IST" finished-at="2020-04-16T16:04:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76f1bd13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAA -->
+      </class> <!-- testcases.TestA -->
+    </test> <!-- TestA -->
+  </suite> <!-- Test Suite -->
+</testng-results>

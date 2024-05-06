@@ -1,0 +1,29 @@
+OOPs - Imp in POM
+Never make driver static
+ITestContext
+Dependency between tests
+
+
+
+Goals->
+Maven Project
+Deciding interfaces
+Session Management
+Implementing Tests
+Implementing Page Factory design pattern inside the tests
+Making sure OOPs concepts are followed
+Batch Running of Tests
+Optionally Running Tests
+Running Failed Tests again
+Reading Data from XLS
+Report generation
+Screenshots in Reports
+Logs in reports
+Email reports
+Implementing GRID
+Deploy Project to Github
+Jenkins Integration
+Scheduling Running of wAutomation Scripts 
+Auto Running Project from Jenkins
+
+
