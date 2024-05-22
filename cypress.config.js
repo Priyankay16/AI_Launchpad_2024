@@ -5,5 +5,9 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    baseUrl:'https://tree.taiga.io/',
+    viewportWidth: 1366,
+    viewportHeight: 768,
+    experimentalStudio: true
   },
 });
