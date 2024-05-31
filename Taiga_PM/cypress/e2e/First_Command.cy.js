@@ -1,7 +1,8 @@
 describe('template spec', () => {
-  it('My First Test', () => {
+  it('Project', () => {
     cy.visit('/project/py16-cypress_test/kanban')
     cy.get('.center > .close').click
-    cy.contains('Test')
+    cy.contains('.card-inner','Test')
+    cy.get('[data-id="6321467"]')
   })
 })

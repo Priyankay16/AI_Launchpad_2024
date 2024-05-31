@@ -1,0 +1,22 @@
+{
+  "name": "m_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "cypress open",
+    "test-electron": "cypress run",
+    "smoke-test": "cypress run --spec \"C:\\Users\\priyanka.y\\Desktop\\My_Repo\\Cypress\\M_Project\\cypress\\e2e\\TC01_FirstTest.cy.js\"",
+    "smoke-test-1": "cypress run --spec \"C:\\Users\\priyanka.y\\Desktop\\My_Repo\\Cypress\\M_Project\\cypress\\e2e\\*.cy.js\"",
+    "test-electron-headed": "cypress run --headed",
+    "test-chrome": "cypress run --browser chrome",
+    "test-chrome-headed": "cypress run --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.10.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
