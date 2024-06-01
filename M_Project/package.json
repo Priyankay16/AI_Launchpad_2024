@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "cypress open",
-    "test-electron": "cypress run",
+    "test-electron": "cypress run --spec \"cypress\\e2e\\TC15_CustomCommand.cy.js\"",
     "smoke-test": "cypress run --spec \"C:\\Users\\priyanka.y\\Desktop\\My_Repo\\Cypress\\M_Project\\cypress\\e2e\\TC01_FirstTest.cy.js\"",
     "smoke-test-1": "cypress run --spec \"C:\\Users\\priyanka.y\\Desktop\\My_Repo\\Cypress\\M_Project\\cypress\\e2e\\*.cy.js\"",
     "test-electron-headed": "cypress run --headed",
@@ -17,6 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.10.0",
-    "cypress-xpath": "^2.0.1"
+    "cypress-xpath": "^2.0.1",
+    "neat-csv": "^5.2.0",
+    "xlsx": "^0.18.5"
   }
 }
