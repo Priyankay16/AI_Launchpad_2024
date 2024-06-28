@@ -29,7 +29,7 @@
     }
   },
   "dependencies": {
-    "rimraf": "^5.0.7",
+    "rimraf": "^3.0.0",
     "util": "^0.12.5"
   }
 }
