@@ -7,13 +7,12 @@ describe('Login funntionality',function(){
 
         cy.get('.navbar-brand')
           .should('have.text','conduit')
-        cy.get('a[href="#logins"]').click()
+        cy.get('a[href="#login"]').click()
         cy.get('input[type="email"]').type('priyanka.manaji.yadav.16@gmail.com')
         cy.get('input[type="password"]').type('test123')
         cy.get('button[type="submit"]').click()
         cy.get('a[href="#settings"]').click()
         cy.get('.btn.btn-outline-danger').click()
-    } )
-
+    })
 })
 

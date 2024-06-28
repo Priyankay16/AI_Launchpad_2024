@@ -1,0 +1,27 @@
+{
+    "articles": [
+        {
+            "slug": "Ill-quantify-the-redundant-TCP-bus-that-should-hard-drive-the-ADP-bandwidth!-553",
+            "title": "Demo Mock Cypress",
+            "description": "Aut facilis qui. Cupiditate sit ratione eum sunt rerum impedit. Qui suscipit debitis et et voluptates voluptatem voluptatibus. Quas voluptatum quae corporis corporis possimus.",
+            "body": "This is a Demo post for udemy",
+            "tagList": [
+                "sit",
+                "reiciendis",
+                "consequuntur",
+                "nihil"
+            ],
+            "createdAt": "2024-01-04T00:52:58.601Z",
+            "updatedAt": "2024-01-04T00:52:58.601Z",
+            "favorited": false,
+            "favoritesCount": 610,
+            "author": {
+                "username": "Priyanka",
+                "bio": null,
+                "image": "https://api.realworld.io/images/demo-avatar.png",
+                "following": false
+            }
+        }
+    ],
+    "articlesCount": 1
+}

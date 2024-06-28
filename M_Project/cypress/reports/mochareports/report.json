@@ -2,65 +2,69 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 1,
+    "passes": 0,
     "pending": 0,
-    "failures": 0,
+    "failures": 1,
     "testsRegistered": 1,
-    "passPercent": 100,
+    "passPercent": 0,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
     "skipped": 0,
     "hasSkipped": false,
-    "start": "2024-06-06T15:05:35.666Z",
-    "end": "2024-06-06T15:05:39.691Z",
-    "duration": 4025
+    "start": "2024-06-07T11:38:09.795Z",
+    "end": "2024-06-07T11:38:18.550Z",
+    "duration": 8755
   },
   "results": [
     {
-      "uuid": "299aabc8-269d-4e08-8dc5-c255ba77ded7",
+      "uuid": "47a4a9c5-1419-4abd-bb30-78888b146427",
       "title": "",
-      "fullFile": "cypress\\e2e\\smoke\\TC03_Checkbox.cy.js",
-      "file": "cypress\\e2e\\smoke\\TC03_Checkbox.cy.js",
+      "fullFile": "cypress\\e2e\\smoke\\TC01_FirstTest.cy.js",
+      "file": "cypress\\e2e\\smoke\\TC01_FirstTest.cy.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "a7d7586b-1dd6-452f-9f95-ad8eb85c7d43",
-          "title": "Checkbox Functionality",
+          "uuid": "7fc46e33-e062-4c03-b5ba-54c9ed66464b",
+          "title": "Login funntionality",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Handling different Check boxes",
-              "fullTitle": "Checkbox Functionality Handling different Check boxes",
+              "title": "Login test using conduit",
+              "fullTitle": "Login funntionality Login test using conduit",
               "timedOut": null,
-              "duration": 1916,
-              "state": "passed",
-              "speed": "fast",
-              "pass": true,
-              "fail": false,
+              "duration": 6032,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
               "pending": false,
-              "context": null,
-              "code": "cy.visit('https://demos.jquerymobile.com/1.4.5/checkboxradio-checkbox/');\ncy.get('#checkbox-v-2a').should('not.be.checked').check({\n  force: true\n}).should('be.checked');\ncy.get('#checkbox-v-2b').should('not.be.checked').check({\n  force: true\n}).should('be.checked');",
-              "err": {},
-              "uuid": "7079a96d-a49b-44bb-ab94-90720fc421bd",
-              "parentUUID": "a7d7586b-1dd6-452f-9f95-ad8eb85c7d43",
+              "context": "\"assets/${Cypress.spec.name}/${runnable.parent.title} --${test.title} (failed).png\"",
+              "code": "cy.visit('https://react-redux.realworld.io/');\ncy.get('.navbar-brand').should('have.text', 'conduit');\ncy.get('a[href=\"#logins\"]').click();\ncy.get('input[type=\"email\"]').type('priyanka.manaji.yadav.16@gmail.com');\ncy.get('input[type=\"password\"]').type('test123');\ncy.get('button[type=\"submit\"]').click();\ncy.get('a[href=\"#settings\"]').click();\ncy.get('.btn.btn-outline-danger').click();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `a[href=\"#logins\"]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `a[href=\"#logins\"]`, but never found it.\n    at Context.eval (webpack://m_project/./cypress/e2e/smoke/TC01_FirstTest.cy.js:10:11)",
+                "diff": null
+              },
+              "uuid": "efda1279-7c3f-45e5-99fd-8954641547f8",
+              "parentUUID": "7fc46e33-e062-4c03-b5ba-54c9ed66464b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [
-            "7079a96d-a49b-44bb-ab94-90720fc421bd"
+          "passes": [],
+          "failures": [
+            "efda1279-7c3f-45e5-99fd-8954641547f8"
           ],
-          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1916,
+          "duration": 6032,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
